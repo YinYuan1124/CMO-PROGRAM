@@ -1,0 +1,47 @@
+body{
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 16;
+	background-color: #383838;
+	color: white;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}
+
+h1{
+	color: White;
+	font-size:xx-large;
+}
+
+h2{
+	color: White;
+	font-size:x-large;
+}
+
+h3{
+	color: White;
+	font-size:large;
+	font-feature-settings: underline;
+}
+
+h4{
+	color: White;
+	font-feature-settings: underline;
+}
+
+p {
+	color: white;
+}
+
+ul {
+	color: white;
+	list-style-type: disc;
+}
+
+ol {
+	color: white;
+}

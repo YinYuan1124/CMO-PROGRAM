@@ -1,0 +1,252 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Globalization;
+using System.Runtime.CompilerServices;
+using System.Threading;
+using System.Xml.Schema;
+using System.Xml.Serialization;
+using OpenDis.Core;
+
+namespace OpenDis.Enumerations.Cet2010;
+
+[Serializable]
+[XmlInclude(typeof(Cet))]
+[DebuggerStepThrough]
+public abstract class GenericTable : CetBase, INotifyPropertyChanged
+{
+	private List<object> list_0;
+
+	private bool bool_0;
+
+	private bool bool_1;
+
+	private bool bool_2;
+
+	private bool bool_3;
+
+	private int int_0;
+
+	private bool bool_4;
+
+	private string string_0;
+
+	private ulong ulong_0;
+
+	private string string_1;
+
+	[CompilerGenerated]
+	private PropertyChangedEventHandler propertyChangedEventHandler_0;
+
+	[XmlElement("cr", typeof(Cr), Form = XmlSchemaForm.Unqualified)]
+	[XmlElement("cr_range", typeof(CrRange), Form = XmlSchemaForm.Unqualified)]
+	public List<object> ChangeRequests
+	{
+		get
+		{
+			return list_0;
+		}
+		set
+		{
+			if (list_0 != value)
+			{
+				list_0 = value;
+				RaisePropertyChanged("ChangeRequests");
+			}
+		}
+	}
+
+	[XmlAttribute(AttributeName = "deprecated")]
+	public bool Deprecated
+	{
+		get
+		{
+			return bool_0;
+		}
+		set
+		{
+			if (bool_0 != value)
+			{
+				bool_0 = value;
+				RaisePropertyChanged("Deprecated");
+			}
+		}
+	}
+
+	[XmlIgnore]
+	public bool DeprecatedSpecified
+	{
+		get
+		{
+			return bool_1;
+		}
+		set
+		{
+			if (bool_1 != value)
+			{
+				bool_1 = value;
+				RaisePropertyChanged("DeprecatedSpecified");
+			}
+		}
+	}
+
+	[XmlAttribute(AttributeName = "group")]
+	public int Group
+	{
+		get
+		{
+			return int_0;
+		}
+		set
+		{
+			if (int_0 != value)
+			{
+				int_0 = value;
+				RaisePropertyChanged("Group");
+			}
+		}
+	}
+
+	[XmlIgnore]
+	public bool GroupSpecified
+	{
+		get
+		{
+			return bool_4;
+		}
+		set
+		{
+			if (bool_4 != value)
+			{
+				bool_4 = value;
+				RaisePropertyChanged("GroupSpecified");
+			}
+		}
+	}
+
+	[XmlAttribute(AttributeName = "draft1278")]
+	public bool Boolean_0
+	{
+		get
+		{
+			return bool_2;
+		}
+		set
+		{
+			if (bool_2 != value)
+			{
+				bool_2 = value;
+				RaisePropertyChanged("IsDraft1278");
+			}
+		}
+	}
+
+	[XmlIgnore]
+	public bool Boolean_1
+	{
+		get
+		{
+			return bool_3;
+		}
+		set
+		{
+			if (bool_3 != value)
+			{
+				bool_3 = value;
+				RaisePropertyChanged("IsDraft1278Specified");
+			}
+		}
+	}
+
+	[XmlAttribute(AttributeName = "name")]
+	public string Name
+	{
+		get
+		{
+			return string_0;
+		}
+		set
+		{
+			if (string_0 != value)
+			{
+				string_0 = value;
+				RaisePropertyChanged("Name");
+			}
+		}
+	}
+
+	[XmlAttribute(AttributeName = "uid", DataType = "positiveInteger")]
+	public string RawUId
+	{
+		get
+		{
+			return string_1;
+		}
+		set
+		{
+			if (string_1 != value)
+			{
+				string_1 = value;
+				ulong_0 = ulong.Parse(value, CultureInfo.InvariantCulture);
+				RaisePropertyChanged("RawUId");
+			}
+		}
+	}
+
+	[XmlIgnore]
+	public ulong UId
+	{
+		get
+		{
+			return ulong_0;
+		}
+		set
+		{
+			if (ulong_0 != value)
+			{
+				ulong num = value;
+				RawUId = num.ToString(CultureInfo.InvariantCulture);
+				RaisePropertyChanged("UId");
+			}
+		}
+	}
+
+	public event PropertyChangedEventHandler PropertyChanged
+	{
+		[CompilerGenerated]
+		add
+		{
+			PropertyChangedEventHandler propertyChangedEventHandler = propertyChangedEventHandler_0;
+			PropertyChangedEventHandler propertyChangedEventHandler2;
+			do
+			{
+				propertyChangedEventHandler2 = propertyChangedEventHandler;
+				PropertyChangedEventHandler value2 = (PropertyChangedEventHandler)Delegate.Combine(propertyChangedEventHandler2, value);
+				propertyChangedEventHandler = Interlocked.CompareExchange(ref propertyChangedEventHandler_0, value2, propertyChangedEventHandler2);
+			}
+			while ((object)propertyChangedEventHandler != propertyChangedEventHandler2);
+		}
+		[CompilerGenerated]
+		remove
+		{
+			PropertyChangedEventHandler propertyChangedEventHandler = propertyChangedEventHandler_0;
+			PropertyChangedEventHandler propertyChangedEventHandler2;
+			do
+			{
+				propertyChangedEventHandler2 = propertyChangedEventHandler;
+				PropertyChangedEventHandler value2 = (PropertyChangedEventHandler)Delegate.Remove(propertyChangedEventHandler2, value);
+				propertyChangedEventHandler = Interlocked.CompareExchange(ref propertyChangedEventHandler_0, value2, propertyChangedEventHandler2);
+			}
+			while ((object)propertyChangedEventHandler != propertyChangedEventHandler2);
+		}
+	}
+
+	protected void RaisePropertyChanged(string string_2)
+	{
+		if (propertyChangedEventHandler_0 != null)
+		{
+			propertyChangedEventHandler_0(this, new PropertyChangedEventArgs(string_2));
+		}
+	}
+}

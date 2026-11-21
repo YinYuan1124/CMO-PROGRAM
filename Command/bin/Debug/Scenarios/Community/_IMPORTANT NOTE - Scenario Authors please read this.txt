@@ -1,0 +1,12 @@
+Scenario authors, 
+
+Please note that the scenarios in this scenario pack is being regularly rebuilt with the latest Command database. This means that, in some cases, changes have to be made to the scenario by the Command developer team. A typical example was when it became clear that F-35B Lightning II (VSTOL version) couldn't carry 2000lb weapons internally, and we deleted those loadouts.
+
+From time-to-time there are also major functionality changes that require scenario updates. For example when Quick Turnaround was introduced, and about 200 scenarios had to be updated with proper Quick Turnaround settings.
+
+As a result, if you want to update your scenario it is important that you grab the scenario from the very latest scenario pack and use that as a basis for your next version. Do not use the scenario you have on your hard drive, as it is likely outdated and may even have serious problems.
+
+Thank you :)
+
+
+The Community Scenario Package is maintained by Kushan, for any issue related with the scenarios included, contact at KushanGaming@gmail.com

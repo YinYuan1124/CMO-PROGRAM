@@ -1,0 +1,211 @@
+using System;
+using System.Globalization;
+using System.Runtime.CompilerServices;
+using System.Text;
+using System.Threading;
+using System.Xml.Serialization;
+using OpenDis.Core;
+
+namespace DISnet;
+
+[Serializable]
+[XmlRoot]
+public class EmitterSystem
+{
+	private ushort ushort_0;
+
+	private byte byte_0;
+
+	private byte byte_1;
+
+	[CompilerGenerated]
+	private Action<Exception> action_0;
+
+	[XmlElement(Type = typeof(ushort), ElementName = "emitterName")]
+	public ushort EmitterName
+	{
+		get
+		{
+			return ushort_0;
+		}
+		set
+		{
+			ushort_0 = value;
+		}
+	}
+
+	[XmlElement(Type = typeof(byte), ElementName = "function")]
+	public byte Function
+	{
+		get
+		{
+			return byte_0;
+		}
+		set
+		{
+			byte_0 = value;
+		}
+	}
+
+	[XmlElement(Type = typeof(byte), ElementName = "emitterIdNumber")]
+	public byte EmitterIdNumber
+	{
+		get
+		{
+			return byte_1;
+		}
+		set
+		{
+			byte_1 = value;
+		}
+	}
+
+	public event Action<Exception> Exception
+	{
+		[CompilerGenerated]
+		add
+		{
+			Action<Exception> action = action_0;
+			Action<Exception> action2;
+			do
+			{
+				action2 = action;
+				Action<Exception> value2 = (Action<Exception>)Delegate.Combine(action2, value);
+				action = Interlocked.CompareExchange(ref action_0, value2, action2);
+			}
+			while ((object)action != action2);
+		}
+		[CompilerGenerated]
+		remove
+		{
+			Action<Exception> action = action_0;
+			Action<Exception> action2;
+			do
+			{
+				action2 = action;
+				Action<Exception> value2 = (Action<Exception>)Delegate.Remove(action2, value);
+				action = Interlocked.CompareExchange(ref action_0, value2, action2);
+			}
+			while ((object)action != action2);
+		}
+	}
+
+	public static bool operator !=(EmitterSystem emitterSystem_0, EmitterSystem emitterSystem_1)
+	{
+		return !(emitterSystem_0 == emitterSystem_1);
+	}
+
+	public static bool operator ==(EmitterSystem emitterSystem_0, EmitterSystem emitterSystem_1)
+	{
+		if ((object)emitterSystem_0 == emitterSystem_1)
+		{
+			return true;
+		}
+		if ((object)emitterSystem_0 != null && (object)emitterSystem_1 != null)
+		{
+			return emitterSystem_0.Equals(emitterSystem_1);
+		}
+		return false;
+	}
+
+	public virtual int GetMarshalledSize()
+	{
+		return 4;
+	}
+
+	protected void OnException(Exception exception_0)
+	{
+		if (action_0 != null)
+		{
+			action_0(exception_0);
+		}
+	}
+
+	public virtual void Marshal(DataOutputStream dataOutputStream_0)
+	{
+		if (dataOutputStream_0 != null)
+		{
+			try
+			{
+				dataOutputStream_0.WriteUnsignedShort(ushort_0);
+				dataOutputStream_0.WriteUnsignedByte(byte_0);
+				dataOutputStream_0.WriteUnsignedByte(byte_1);
+			}
+			catch (Exception exception_)
+			{
+				OnException(exception_);
+			}
+		}
+	}
+
+	public virtual void Unmarshal(DataInputStream dataInputStream_0)
+	{
+		if (dataInputStream_0 != null)
+		{
+			try
+			{
+				ushort_0 = dataInputStream_0.ReadUnsignedShort();
+				byte_0 = dataInputStream_0.ReadUnsignedByte();
+				byte_1 = dataInputStream_0.ReadUnsignedByte();
+			}
+			catch (Exception exception_)
+			{
+				OnException(exception_);
+			}
+		}
+	}
+
+	public virtual void Reflection(StringBuilder stringBuilder_0)
+	{
+		stringBuilder_0.AppendLine("<EmitterSystem>");
+		try
+		{
+			stringBuilder_0.AppendLine("<emitterName type=\"ushort\">" + ushort_0.ToString(CultureInfo.InvariantCulture) + "</emitterName>");
+			stringBuilder_0.AppendLine("<function type=\"byte\">" + byte_0.ToString(CultureInfo.InvariantCulture) + "</function>");
+			stringBuilder_0.AppendLine("<emitterIdNumber type=\"byte\">" + byte_1.ToString(CultureInfo.InvariantCulture) + "</emitterIdNumber>");
+			stringBuilder_0.AppendLine("</EmitterSystem>");
+		}
+		catch (Exception exception_)
+		{
+			OnException(exception_);
+		}
+	}
+
+	public override bool Equals(object obj)
+	{
+		return this == obj as EmitterSystem;
+	}
+
+	public bool Equals(EmitterSystem emitterSystem_0)
+	{
+		bool result = true;
+		if (emitterSystem_0.GetType() == GetType())
+		{
+			if (ushort_0 != emitterSystem_0.ushort_0)
+			{
+				result = false;
+			}
+			if (byte_0 != emitterSystem_0.byte_0)
+			{
+				result = false;
+			}
+			if (byte_1 != emitterSystem_0.byte_1)
+			{
+				result = false;
+			}
+			return result;
+		}
+		return false;
+	}
+
+	private static int smethod_0(int int_0)
+	{
+		int_0 <<= 5 + int_0;
+		return int_0;
+	}
+
+	public override int GetHashCode()
+	{
+		return smethod_0(smethod_0(smethod_0(0) ^ ushort_0.GetHashCode()) ^ byte_0.GetHashCode()) ^ byte_1.GetHashCode();
+	}
+}

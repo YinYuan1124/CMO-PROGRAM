@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Campaign>
+    <ID>1fd76cc8-ab96-4a23-afc1-5beb48200026</ID>
+    <Name>The Silent Service</Name>
+    <Description>[LOADDOC]Intro.html[/LOADDOC]</Description>
+    <EndingText>[LOADDOC]CampaignEnd.html[/LOADDOC]</EndingText>
+    <Items>
+        <Scenario>
+            <Name>Delta Force</Name>
+            <ID>48772224-4da9-40a3-bbdc-114ecd6ee652</ID>
+            <File>1. Delta Force.scen</File>
+            <PassScore>100</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Ground Pounder</Name>
+            <ID>bfcacbee-b859-4f29-973c-15e020f5d93c</ID>
+            <File>2. Ground Pounder.scen</File>
+            <PassScore>100</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Chicken Kiev</Name>
+            <ID>62613e3d-0cfa-471c-abcf-18b27956e961</ID>
+            <File>3. Chicken Kiev.scen</File>
+            <PassScore>100</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Snoopy</Name>
+            <ID>e25e47e2-94ad-43de-a48e-db540d7ce491</ID>
+            <File>4. Snoopy.scen</File>
+            <PassScore>500</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Lone Wolf</Name>
+            <ID>15790b5a-6e26-4f75-9f18-57fe33342576</ID>
+            <File>5. Lone Wolf.scen</File>
+            <PassScore>250</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Creeping Death</Name>
+            <ID>3ffdf53a-45ab-4987-98f7-2365a7d98379</ID>
+            <File>6. Creeping Death.scen</File>
+            <PassScore>100</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Landing Party</Name>
+            <ID>ea73989f-5805-4612-abaa-5a4191f5b9ef</ID>
+            <File>7. Landing Party.scen</File>
+            <PassScore>100</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Gamechanger</Name>
+            <ID>e1ba493d-2681-48c7-a48a-7359500db708</ID>
+            <File>8. Gamechanger.scen</File>
+            <PassScore>1250</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>The Crown Jewels</Name>
+            <ID>1b5e7fdd-b9b3-4c6b-8042-dee0b354437f</ID>
+            <File>9. The Crown Jewels.scen</File>
+            <PassScore>200</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Suckerpunch</Name>
+            <ID>d036b375-9236-4660-9fcb-af658aba5dad</ID>
+            <File>10. Suckerpunch.scen</File>
+            <PassScore>200</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>The Enemy Below</Name>
+            <ID>d07620aa-c73d-4ab8-8c91-88eb3a8847ea</ID>
+            <File>11. The Enemy Below.scen</File>
+            <PassScore>33</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>The Good Shepherd</Name>
+            <ID>b48558fc-1367-40de-8e0c-48528e21b64a</ID>
+            <File>12. The Good Shepherd.scen</File>
+            <PassScore>200</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>They Shall Not Pass</Name>
+            <ID>8f222469-a70d-4e5c-bd59-371bff6c4b08</ID>
+            <File>13. They Shall Not Pass.scen</File>
+            <PassScore>1000</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Beans and Bullets</Name>
+            <ID>cde087fc-bb49-4a9c-840f-b111dc9df892</ID>
+            <File>14. Beans &amp; Bullets.scen</File>
+            <PassScore>100</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Carrier Killer</Name>
+            <ID>62cb8d75-037f-4b65-98f3-6263ceb55537</ID>
+            <File>15. Carrier Killer.scen</File>
+            <PassScore>150</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Mid-Atlantic Blues</Name>
+            <ID>98a8f851-bf21-4796-bc08-3ce210b69429</ID>
+            <File>16. Mid-Atlantic Blues.scen</File>
+            <PassScore>100</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Long in the Tooth</Name>
+            <ID>b886c297-7c04-4cd3-b7d1-d7a8fb741123</ID>
+            <File>17. Long in the Tooth.scen</File>
+            <PassScore>100</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>By Other Means</Name>
+            <ID>59c22d4d-6aa8-4549-b656-940888be5055</ID>
+            <File>18. By Other Means.scen</File>
+            <PassScore>200</PassScore>
+        </Scenario>
+    </Items>
+</Campaign>

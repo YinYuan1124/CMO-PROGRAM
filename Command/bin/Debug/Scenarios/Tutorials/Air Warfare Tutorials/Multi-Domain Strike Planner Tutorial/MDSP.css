@@ -1,0 +1,35 @@
+﻿body {    
+background-color: #333333;
+color: White;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+	color: White;
+	font-size:xx-large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+	color: White;
+	font-size:x-large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+	color: White;
+}
+
+h4{
+	color: White;
+}
+
+p{
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}

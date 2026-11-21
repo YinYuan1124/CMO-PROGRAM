@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Campaign>
+    <ID>437950b8-3f16-4932-b8e6-a2c397e1f758</ID>
+    <Name>Desert Storm</Name>
+    <Description>[LOADDOC]Intro.html[/LOADDOC]</Description>
+    <EndingText>[LOADDOC]CampaignEnd.html[/LOADDOC]</EndingText>
+    <Items>
+        <Scenario>
+            <Name>Invasion</Name>
+            <ID>527c67b8-863a-4e71-af6d-94edab707468</ID>
+            <File>1. Invasion.scen</File>
+            <PassScore>45</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>The Thin Red Line</Name>
+            <ID>51e2c9e1-52d9-48b0-a741-24392a7f7187</ID>
+            <File>2. The Thin Red Line.scen</File>
+            <PassScore>125</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>First Night</Name>
+            <ID>686d21d4-b68a-411f-8b6c-c14abb54c3e8</ID>
+            <File>3. First Night.scen</File>
+            <PassScore>105</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>The Gates of Hell</Name>
+            <ID>fa211340-0e19-472e-ab30-3316440c6408</ID>
+            <File>4. The Gates of Hell.scen</File>
+            <PassScore>225</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>SCUD Hunting</Name>
+            <ID>e1e655f7-69a0-47f7-9a13-eac4b6e5e46c</ID>
+            <File>5. Scud Hunt.scen</File>
+            <PassScore>145</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Reviving A Giant</Name>
+            <ID>6fdbf8f1-20fa-401b-ac44-9757e51d80e6</ID>
+            <File>6. Reviving A Giant.scen</File>
+            <PassScore>145</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Israel Stands Up</Name>
+            <ID>88089cc4-8c08-4303-ae16-703b0a469154</ID>
+            <File>7. Israel Stands Up.scen</File>
+            <PassScore>122</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>BUFFed Up</Name>
+            <ID>7698b623-075d-4a93-8e6d-604248857bbe</ID>
+            <File>8. BUFFed Up.scen</File>
+            <PassScore>270</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Alliances</Name>
+            <ID>7ee4c3dc-0359-43e2-9b24-6dd673e1eb1b</ID>
+            <File>9. Alliances.scen</File>
+            <PassScore>68</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Reprisals</Name>
+            <ID>186735df-36a0-431e-b31f-c23c7f822fc2</ID>
+            <File>10. Reprisals.scen</File>
+            <PassScore>82</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Extreme Prejudice</Name>
+            <ID>b47059b3-1299-4f33-b0a5-df8df926d674</ID>
+            <File>11. Extreme Prejudice.scen</File>
+            <PassScore>82</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Bubiyan</Name>
+            <ID>ed8e1cd1-c9ef-455c-930a-a5c61e34934a</ID>
+            <File>12. Bubiyan.scen</File>
+            <PassScore>69</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Shooting Gallery</Name>
+            <ID>24c7cc3e-65d2-4a3f-bdf9-779bd4299d7b</ID>
+            <File>13. Shooting Gallery.scen</File>
+            <PassScore>81</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Liberation</Name>
+            <ID>d0bb05d4-8d10-4ec9-a9eb-dfaddc387abf</ID>
+            <File>14. Liberation.scen</File>
+            <PassScore>68</PassScore>
+        </Scenario>
+    </Items>
+</Campaign>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Campaign>
+    <ID>e9556b66-1a7d-4768-8311-2cc86d8db16a</ID>
+    <Name>Strike Tutorials</Name>
+    <Description>&lt;p&gt;&lt;span&gt;&lt;span style="font-family: Calibri;"&gt;&lt;strong&gt;Strike Tutorial&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span style="font-family: Calibri;"&gt;This is a simple campaign comprising a series of simple tutorials that will take you from the most basic of air attacks to quite advanced methods of using stealth, jamming, SEAD and deception.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span style="font-family: Calibri;"&gt;By &lt;strong&gt;Gunner98 &lt;/strong&gt;AKA Bart Gauvin&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</Description>
+    <EndingText>&lt;BODY scroll=auto&gt;&lt;SPAN style="mso-ansi-language: EN-CA"&gt;&lt;FONT face=Calibri&gt;
+&lt;P class=MsoNormal style="MARGIN: 0cm 0cm 8pt"&gt;&lt;SPAN style="mso-ansi-language: EN-CA"&gt;Congratulations!&lt;?xml:namespace prefix = "o" ns = "urn:schemas-microsoft-com:office:office" /&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0cm 0cm 8pt"&gt;&lt;SPAN style="mso-ansi-language: EN-CA"&gt;You have successfully completed the ‘Strike Tutorial’ campaign.&lt;SPAN style="mso-spacerun: yes"&gt;&amp;nbsp; &lt;/SPAN&gt;Armed with the knowledge you have gained in these tutorials you should be well equipped to tackle a large number of Command Scenarios.&lt;SPAN style="mso-spacerun: yes"&gt;&amp;nbsp; &lt;/SPAN&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0cm 0cm 8pt"&gt;&lt;SPAN style="mso-ansi-language: EN-CA"&gt;You should probably move on to the ‘Basic Training Tutorials’ and ‘Uncle Mark’s Tutorials’ which are stepping stones to many of the fantastic community built scenarios available in the Community Pack, which WarfareSims maintains.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0cm 0cm 8pt"&gt;&lt;SPAN style="mso-ansi-language: EN-CA"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0cm 0cm 8pt"&gt;&lt;SPAN style="mso-ansi-language: EN-CA"&gt;See you on the Forums &lt;SPAN style="mso-spacerun: yes"&gt;&amp;nbsp;&amp;nbsp;&lt;/SPAN&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0cm 0cm 8pt"&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;SPAN style="mso-ansi-language: EN-CA"&gt;&lt;o:p&gt;&lt;FONT face=Calibri&gt;&amp;nbsp;&lt;/FONT&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0cm 0cm 8pt"&gt;&lt;SPAN style="mso-ansi-language: EN-CA"&gt;&lt;FONT face=Calibri&gt;By &lt;B style="mso-bidi-font-weight: normal"&gt;Gunner98 &lt;/B&gt;AKA Bart Gauvin&lt;/FONT&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/BODY&gt;</EndingText>
+    <Items>
+        <Scenario>
+            <Name>Strike Tutorial - 1 - Bombing Range</Name>
+            <ID>e70f7b0a-f544-4718-bc52-8d79b0a3a0a1</ID>
+            <File>Strike Tutorial - 1 - Bombing Range.scen</File>
+            <PassScore>100</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Strike Tutorial - 2 - Driving in the Daisies</Name>
+            <ID>c486c948-1d8c-4fa5-9406-5cffd6e27f92</ID>
+            <File>Strike Tutorial - 2 - Driving in the Daisies.scen</File>
+            <PassScore>100</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Strike Tutorial - 3 - Complex Strike</Name>
+            <ID>540712d3-99ad-4d33-bec1-a8fc580be01d</ID>
+            <File>Strike Tutorial - 3 - Complex Strike.scen</File>
+            <PassScore>100</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Strike Tutorial - 4 - LASER Dance</Name>
+            <ID>5c7a0e39-5c69-42d0-a8f5-b1361ee6a68e</ID>
+            <File>Strike Tutorial - 4 - Laser Dance.scen</File>
+            <PassScore>100</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Strike Tutorial - 5 - Pealing the Onion</Name>
+            <ID>c2aea007-a5b5-448f-a11d-85391196451e</ID>
+            <File>Strike Tutorial - 5 - Pealing the Onion.scen</File>
+            <PassScore>100</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Strike Tutorial - 6 - Dodging the Bullet</Name>
+            <ID>b77082e5-4504-46c2-aab4-d30e6b2e0466</ID>
+            <File>Strike Tutorial - 6 - Dodging the Bullet.scen</File>
+            <PassScore>100</PassScore>
+        </Scenario>
+    </Items>
+</Campaign>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Campaign>
+    <ID>ca630266-f861-4c2f-9031-e527cf2d6e41</ID>
+    <Name>Red Tide</Name>
+    <Description>[LOADDOC]Intro.html[/LOADDOC]</Description>
+    <EndingText>[LOADDOC]CampaignEnd.html[/LOADDOC]</EndingText>
+    <Items>
+        <Scenario>
+            <Name>The Bedford Incident</Name>
+            <ID>60afbcf5-9f46-4401-bf23-e37716e372ea</ID>
+            <File>1. The Bedford Incident.scen</File>
+            <PassScore>170</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Kobayashi Maru</Name>
+            <ID>70e7228f-73c1-421f-b2bb-7489ea0777de</ID>
+            <File>2. Kobayashi Maru.scen</File>
+            <PassScore>1000</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Unwanted Visitors</Name>
+            <ID>3e25e9b3-8b6f-4f2e-bbc0-f1552cac6429</ID>
+            <File>3. Unwanted Visitors.scen</File>
+            <PassScore>500</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Fire Cracker</Name>
+            <ID>39010f26-e85d-41c1-8a75-71d59b463684</ID>
+            <File>4. Fire Cracker.scen</File>
+            <PassScore>450</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Trident Spear</Name>
+            <ID>a2776e9f-9900-451a-bfb2-842432a0cdc7</ID>
+            <File>5. Trident Spear.scen</File>
+            <PassScore>750</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Gauntlet</Name>
+            <ID>28b55029-646c-4077-a739-3330956ec326</ID>
+            <File>6. Gauntlet.scen</File>
+            <PassScore>700</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Commerce Raiders</Name>
+            <ID>f72fb3c7-1efd-4c47-a8a4-70e60380ca40</ID>
+            <File>7. Commerce Raider.scen</File>
+            <PassScore>600</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Enemy at the Gate</Name>
+            <ID>d078a3f0-f3af-45a7-bc47-fd27fe5f0831</ID>
+            <File>8. Enemy at the Gate.scen</File>
+            <PassScore>600</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Déjà vu</Name>
+            <ID>02b6da70-bc27-4033-94c0-744fe5188765</ID>
+            <File>9. Deja Vu.scen</File>
+            <PassScore>500</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Midway</Name>
+            <ID>1a46cfb5-3f6b-41d4-bb26-3897803aa470</ID>
+            <File>10. Midway.scen</File>
+            <PassScore>750</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Hells Highway</Name>
+            <ID>5c61293a-e271-4bc6-9abd-1a1874626646</ID>
+            <File>11. Hells Highway.scen</File>
+            <PassScore>800</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>End Game</Name>
+            <ID>46802c4b-da41-4bb1-a59b-ed74d98ada32</ID>
+            <File>12. End Game.scen</File>
+            <PassScore>3000</PassScore>
+        </Scenario>
+    </Items>
+</Campaign>

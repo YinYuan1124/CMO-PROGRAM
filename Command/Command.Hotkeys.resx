@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="RichTextBox4.Text" xml:space="preserve"><value>U			Unassign selected units
+B			Order selected units to return to base (RTB)
+G			Group selected units
+D			Detach selected units from group
+A			Toggle Weapons Hold/Inherit for selected unit(s)
+Ctrl + A			Toggle Weapons Hold/Inherit for all units
+I			Toggle Ignore Plotted Course When Attacking for selected unit(s)
+Ctrl + I			Toggle Ignore Plotted Course When Attacking for all units
+E			Drop Target(s)
+Ctrl + E			Disengage (Drop all targets)
+L			Hold Position for selected unit(s)
+Ctrl + L			Hold Position for all units
+Shift + [			Drop Passive Sonobuoy, Shallow  - Over Layer
+[			Drop Passive Sonobuoy, Deep - Under Layer
+Shift + ]			Drop Active Sonobuoy, Shallow  - Over Layer
+]			Drop Active Sonobuoy, Deep - Under Layer
+Shift + D		Deploy Dipping Sonar
+O			Display current side's Order Of Battle (OoB)</value></data>
+  <data name="RichTextBox6.Text" xml:space="preserve"><value>Ctrl + V		God's Eye view (See All)
+Ins		Add Unit
+Shift + Ins 	Add Decoy
+C		Copy Unit
+Shift + C	Clone Unit
+M		Move Unit
+R		Rename Unit
+Del		Delete Unit
+Alt + S		Toggle Sides (switch sides)
+Ctrl + X		Map coordinates to clipboard
+Ctrl + F6	Add / Remove Aircraft
+Ctrl + F7	Add / Remove Docked Boats</value></data>
+  <data name="RichTextBox7.Text" xml:space="preserve"><value>Create new Waypoint  --  Press and hold Ctrl key, select and drag existing waypoint.
+Create new Reference Point  --  Press and hold Ctrl key, select and drag existing reference point
+End 'Plot Course' mode   --  Double-click last waypoint.</value></data>
+  <data name="RichTextBox1.Text" xml:space="preserve"><value>F1			Engage Target(s) (Auto) / Re-Target Weapon
+Shift + F1		Engage Target(s) (Manual)
+Ctrl + F1		Bearing-Only Launch (BOL)
+F2			Throttle - Altitude/Depth
+F3			Plot Course
+F4			Formation Editor
+F5			Magazines
+F6			Air Operations
+F7			Boat Docking Operations
+F8			Mounts - Weapons
+F9			Sensors
+Ctrl + F9		Unit / Group Doctrine, EMCON, WRA
+Ctrl + Shift +F9		Side Doctrine, EMCON, WRA
+F10			Damage + Systems Status
+F11			Mission Editor
+Ctrl + F11		Create New Mission</value></data>
+  <data name="RichTextBox2.Text" xml:space="preserve"><value>Ctrl + [1...0]		Store quick-jump slot
+[1...0]			Recall quick-jump slot
+Right-Click &amp; Drag	Pan map around clicked point
+Up Arrow, Num 8	Pan Map Up
+Right Arrow, Num 6	Pan Map Right
+Left Arrow, Num 4	Pan Map Left
+Down Arrow, Num 2	Pan Map Down
+Z , Mouse Scroll		Zoom In
+X , Mouse Scroll		Zoom Out
+V , PgUp, Num 9 	Switch Group / Unit View
+| (Vert. Separator)	Select Next Unit
+Backspace	 	Select Previous Unit
+T			Track Selected Unit
+Ctrl + W		Delete Selected Waypoint
+Ctrl + Ins		Add Reference Point
+Ctrl + R			Rename Reference Point
+Ctrl + Del		Delete Reference Point
+Ctrl + End		Deselect all Reference Points
+Ctrl + K			Define Area
+Ctrl + D			Range / Bearing Tool
+End, Num 1		Toggle Illumination Vectors
+Home, Num 7		Toggle Targeting Vectors
+* (star)			Toggle Datablocks
+Ctrl + M		Clear Message Log
+Ctrl + Shift + M		Message Log In Separate Window</value></data>
+  </root>

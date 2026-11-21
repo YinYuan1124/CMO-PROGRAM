@@ -1,0 +1,71 @@
+Halloween Horror 1991 
+The Time Is: 29 October 1991, 12:00 UTC/07:00 EST 
+Southwest Atlantic Ocean (west of 55W and north of 25N) 
+Playable as the United States only
+Up to a 2 Days Duration
+This is a fairly large scenario it may move slow at times 
+especially when there are massive numbers of sonobuoys deployed
+To avoid lock ups while saving
+1. Hit the space bar to pause
+2. Alt+S to save
+3. Hit the space bar to unpause
+HAPPY HALLOWEEN! 
+Designers Notes: The storm(s) in the scenario are real! Hurricane “Grace” moved past Bermuda on the 28-29th October as a Category 2 storm. The hurricane then moved north and combined with a developing gale/storm center that became the “Perfect Storm” most famous for sinking the Fishing Vessel “Andrea Gail.” Finally, after the scenario ends, an “Unnamed Hurricane” developed in the inner core of the gale/storm center. The net effect of this would have been to push naval and air units out of position against the east coast and make antisubmarine warfare (ASW) a living hell! The entire western Atlantic was churned up by this storm and it both cut President Bush’s home in Kennebunkport, Maine in half and I was surfing 15 to 20 foot breakers in Delray Beach, Florida (really)! The weather conditions represent an average of the conditions from Maine to Jacksonville, but certainly NOT the worst (a 100.7 foot wave was RECORDED off of Canada! 
+Situation: Yes I fully admit this is a slight rip off of the scenario postulated by the Soviet Ambassador in the Hunt for Red October. I always kind of wondered, what if he were actually telling the truth???? Not sure if an independent launch as depicted in the scenario was really possible but conventional wisdom says it was at this time. 
+Units: I have come to realize that Command players are GOING to move the squadrons and units (other than regularly “mobile units” like ships around) and this scenario embraces that idea. Hurricane Grace is now moving away from Bermuda and your ships and squadrons need to fill that hole! Consider if your assets are best placed and how you might better optimize their positions/platforms for a massive ASW hunt. It is assumed that units in other areas are also called into action such as an SSN in the Atlantic Underwater Testing and Evaluation Center (AUTEC) near Andros Island, Bahamas and a task group on drug interdiction north of Hispaniola. Again there is a category 2 hurricane near Bermuda so remain in the spirit of the scenario design please don’t use the editor to fill the hole it is a deliberate design decision to have it there. Take off and landings out of NAS Brunswick would have been hell given the gale/storm center lashing them but this is a desperate situation… 
+ASW Patrol Missions:The ROE defaults to Weapons Free, might want to check that when creating an ASW mission to aviod hitting a target other than the Delta IV. I have defined some missions for those who like that, if not, hey its your game have fun rearranging them.
+___________________________________________________________________________
+Transcript from the Office of Secretary of State, 29 October 1991, 03:21 EDT, retrieved from the National Archives at Kansas City, Missouri…
+James Baker: “Ambassador Komplektov, welcome! I’m sure this can’t be good with you’re getting us out of bed at this hour of the morning! As you requested the Secretaries of Defense and the Navy are here along with the Chief of Naval Operations. I’m sure you know Secretary of Defense, Dick Cheney; Secretary of the Navy, Henry Garrett and Chief of Naval Operations, Admiral Frank Kelso?”
+Viktor Kompletov: “Da, yes. I am sorry to wake you all but I assure you it is a most urgent matter! “
+James Baker: “Please everyone have a seat.” (brief pause) “Now Mr. Ambassador, what can we do for your?”
+Viktor Kompletov: “You are no doubt aware that on October 21st we lost contact with a submarine north of the North Cape of Norway and two explosions in rapid succession were heard?” 
+Frank Kelso: “Yes, we heard the explosions on our sonar systems and have been following your rescue efforts. Are you here to request our assistance?” 
+Viktor Kompletov: “Da, but not in a rescue but in sinking the submarine K-84, you call it a Delta Four class ballistic missile submarine.” 
+Dick Cheney: “I’m sorry Ambassador Kompletov, I’m not sure I heard you correctly! Did you just say you want us to sink one of your submarines?” 
+Viktor Kompletov: “Yes we need your help to sink the submarine K-84, let me explain!“ 
+James Baker: “Please, this better be good!” 
+Viktor Kompletov: “Trust me Mr. Secretary this is absolutely urgent! As you know last August the coup attempt was put down and the Gang of Eight arrested. The leader of the Gang of Eight was Gennady Yanayev.” 
+James Baker: “Yes! Yes, we are aware of that!” 
+Viktor Kompletov: “Yes, the point is, the Captain of the K-84 is the Son-in-Law of our ex Vice President and coup leader, Gennady Yanayev!” 
+Henry Garrett: “Oh God!” 
+Viktor Kompletov: “Da! Yes, Captain First Rank, Ivan Grigorovich, Is married to his oldest daughter and is a very staunch communist, as are all of the officers on the K-84. I’m sure you have loyalty tests for your officers on your ballistic missile submarines?" 
+Frank Kelso: “No sir we do not! But I will grant you that an officer with doubts about the United States would not likely rise to that level of responsibility in our system.” 
+Viktor Kompletov: “Granted, in any case the officers and men of the K-84 are devoted to Grigorovich and the Political Officer, who is Oleg Dmitriyevich Baklanov’s son, especially so.” 
+Dick Cheney: “Oleg Dmitriyevich Baklanov?” 
+James Baker: “A Central Committee Member and member of the August Coup’s ‘Gang of Eight.’ “ 
+Henry Garrett: “This just keeps getting better and better.” 
+James Baker: “Please go on Mr. Ambassador.” 
+Viktor Kompletov: “Da, Thank You. The K-84 departed Polyarny Inlet on the 19th to do some workups and exercises in the Barents Sea. You do much the same off your coast and in the Bahamas if I am not mistaken?" 
+Frank Kelso: “We do. Please go on.” 
+Viktor Kompletov: “Our antisubmarine aircraft which were to exercise with the submarine were almost immediately unable to find her. On the 20th K-84 missed a normal check in. At this time, we began to dispatch some of our surface antisubmarine capable vessels to search for the sub but these things have happened before so no great significance was assigned to it at that point. On the 21st we heard, as did you, the two rapid explosions north of the North Cape, Norway. After several days of search and rescue operations with no success we began to have doubts that the submarine was indeed sunk and was possibly involved in an attempt to defect to the West.” 
+Frank Kelso: “We agree that the explosions we too small to have involved the entire boat. I wish James Greer, from the CIA were here, but we were classmates at the Academy together and he tells me he has a young analyst in their London Office who came to the same conclusion. Sort of an eccentric sort named Ryan. In any case, he didn’t indicate a defection attempt but he was the first to call attention to the two explosions as a diversionary action.” 
+Viktor Kompletov: “Da we are in agreement. We started questioning the family and especially Yanayev’s daughter with no real success until last night. At midnight Moscow time she called the interrogators to her quarters and informed them of Grigorovich’s intention to initiate an independent launch against the east coast of the United States!” 
+Dick Cheney: “WHAT!” 
+Viktor Kompletov: “Please! Please let me go on! She stated his demands are the reinstatement of her father into government service as President of the Soviet Union, and the rest of the Gang of Eight be restored to their former positions.” 
+Henry Garrett: “But that would mean a return to Communist rule!” 
+Frank Kelso: “And worse! It is no secret that Yanayev favors a crackdown on the satellite states in Eastern Europe. Such a crackdown would likely draw West German forces into the east to assist their German brethren and that would quickly degenerate into an NATO-Soviet confrontation. This could get very ugly if that happens.” 
+Dick Cheney: “Uglier than a nuclear attack on our eastern seaboard?” 
+Frank Kelso: “Yes, I am afraid so!” 
+Viktor Kpmpletov: “Gentlemen, please I’m afraid there is more.” 
+James Baker: “More, what could be worse?” 
+Viktor Kompletov: “Grigorovich’s wife also informed us that President Mikhail Sergeyevich Gorbachev and Boris Nikolayevich Yeltsin are to be executed and to ensure they are dead, and there is no maskirovka attempt, she is to personally administer the coup de grâce. They say she is an expert marksman and would have absolutely no compunction to assuming such a role. After she has done that and her father is in place as President, she will broadcast a code known only to herself and her husband to call off the launch.” 
+Dick Cheney: “And just when is the launch?” 
+Viktor Kompletov: “The deadline is 6 p.m. Eastern Standard Time on the 31st.” 
+James Baker: “Halloween! Great, our kids will be out trick or treating!” 
+Henry Garrett: “Yeah, some trick! Mr. Ambassador, your navy simply needs to sink them!” 
+Viktor Kompletov: “If we were in a position to do so we would. We have two submarines south of Iceland, what you call a Victor and an Akula Class submarine captained by one of our best, Captain 2nd Rank Viktor Tupolev. But I am afraid it will not be enough, thus my presence in this room.” 
+Dick Cheney: “Mr. Ambassador, you should probably get those subs out of there so there are no mistakes. Henry, Admiral, Can we do this? Can we sink her?” 
+Henry Garrett: “I know there is a hurricane near Bermuda and our aircraft have evacuated to the eastern seaboard. Admiral, thoughts?” 
+Frank Kelso: “Well our guys have been training for just this for decades but yes there is a hurricane out there and worse the meteorologists at Nav East Ocean Center in Norfolk tell me the hurricane is going to merge with a storm off New England an become one of the worst storms in decades. The seas will be huge from New England to the Bahamas. That puts a lot of noise into the water, the turbulence will make low level aircraft operations dicey and surface vessels will be limited in forward speed made good. Because of the hurricane most of our surface vessels are in port or hugging the east coast and are definitely out of position for a likely launch zone off of Bermuda. We have a few submarines closer that we can vector to the area but overall it’s not going to be easy.” 
+James Baker: “But can you do it?” 
+Frank Kelso: “I don’t know, but if anybody can do it our boys can. We will mobilize everything we can. There are P-3s in Brunswick and Jacksonville. The Iwo Jima is returning from refresher training and we can put an old SH-3 Sea King squadron on her. They don’t use sonobuoys which the Iwo doesn’t carry so that would work. The Saratoga is off of Mayport doing some carrier quals and close to the S-3 squadrons at Cecil Field. Also, we have a destroyer near Hispaniola doing drug interdiction. So we forces we can call on, I just don’t know if they can get there in time.” 
+Henry Garrett: “They’re going to have to, do it!” 
+Dick Cheney: “Admiral, whatever you need.” 
+Viktor Kompletov: “Gentlemen, for obvious reasons our subs will continue to prosecute the target. If there is a mistake we will absorb the loss.” 
+Dick Cheney: “Let me see if I get this straight, IF we accidently sink a Russian submarine looking for your boomer you’re OK with that.” 
+Viktor Kompletov: “I didn’t say we were OK with it, but, given the situation and the stakes at hand, we will absorb the loss. I must tell you the target list for the K-84’s missiles include, Boston, New York, Baltimore, Richmond, Charleston and this city. Also Military installations from Jacksonville, Florida to North Carolina.” 
+Dick Cheney: “Damn, when you guys screw up you really screw up!” 
+Viktor Kompletov: “I don’t know how to reply to that other than to ask, what happens if we are not successful? What would the United States do?” 
+James Baker: “Well let me ask you this Mr. Ambassador, if an American skipper took it upon himself to nuke Leningrad and Moscow what would your country do?” 
+Viktor Kompletov: “Da, yes understood. Then gentlemen it isn’t a question, we must succeed!”

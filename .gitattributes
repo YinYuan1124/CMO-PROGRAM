@@ -1,0 +1,36 @@
+# Normalize text files to CRLF for this .NET Framework / Windows project.
+* text=auto
+
+*.cs        text eol=crlf
+*.csproj    text eol=crlf
+*.sln       text eol=crlf
+*.config    text eol=crlf
+*.ini       text eol=crlf
+*.md        text eol=crlf
+*.txt       text eol=crlf
+*.xml       text eol=crlf
+*.resx      text eol=crlf
+*.xaml      text eol=crlf
+*.baml      binary
+*.resources binary
+
+# Large scenario XML: keep it textual but suppress huge diffs.
+*.scen      text eol=crlf -diff
+
+# Binaries
+*.dll       binary
+*.exe       binary
+*.pdb       binary
+*.ico       binary
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.pdf       binary
+*.zip       binary
+*.7z        binary
+*.dat       binary
+*.mbtiles   binary
+*.db3       binary
+*.tif       binary
+*.tiff      binary

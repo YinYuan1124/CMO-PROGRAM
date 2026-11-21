@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Campaign>
+    <ID>6686549e-66a7-45dc-8f7a-1b0099cdae0a</ID>
+    <Name>Northern Inferno</Name>
+    <Description>[LOADDOC]files\0\Description.html[/LOADDOC]</Description>
+    <EndingText>[LOADDOC]files\0\CampaignEnd.html[/LOADDOC]</EndingText>
+    <Items>
+        <Attachment>
+            <Name>Local Video: Intro.wmv</Name>
+            <ID>0b2ab3e4-f16a-4f7d-a94b-982d476db105</ID>
+        </Attachment>
+        <Scenario>
+            <Name>Opening Moves</Name>
+            <ID>512bd4cd-6155-43cf-ba68-dec98553cbc0</ID>
+            <File>1. Opening Moves 07 Aug 1975.scen</File>
+            <PassScore>667</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Goblin on the Doorstep</Name>
+            <ID>aa62dcd7-d09f-4f0d-9bf1-c89561f57bfc</ID>
+            <File>2. Goblin on the Doorstep 14 Aug 1975 .scen</File>
+            <PassScore>300</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>The Fast and the Furious</Name>
+            <ID>15c0788e-676b-444a-8afd-9546199210fe</ID>
+            <File>3. The Fast and the Furious 20 Aug 1975.scen</File>
+            <PassScore>33</PassScore>
+        </Scenario>
+        <Attachment>
+            <Name>Local Video: News_Link_for_Between_Scenario_3_and_4.mp4</Name>
+            <ID>2a46e8c2-fe2d-4413-b5d5-bea245b29ea0</ID>
+        </Attachment>
+        <Scenario>
+            <Name>Barents Sea Boomers</Name>
+            <ID>2ef1b270-f985-41c7-ac2e-39fd41055a01</ID>
+            <File>4. Barents Sea Boomers 24 Aug 1975.scen</File>
+            <PassScore>1000</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Beware of the Badger</Name>
+            <ID>736ce63c-09a6-4f0f-a59f-845069645214</ID>
+            <File>5. Beware of the Badger 30 Aug 1975.scen</File>
+            <PassScore>600</PassScore>
+        </Scenario>
+        <Attachment>
+            <Name>Local Video: News_Link_for_Between_Scenario_5_and_6.mp4</Name>
+            <ID>29a790ff-8c0b-4660-9afa-7aa65994ef9c</ID>
+        </Attachment>
+        <Scenario>
+            <Name>The Grey Ghost from the East Coast</Name>
+            <ID>081629c3-8c9e-4f5d-ad6a-3b513b343e46</ID>
+            <File>6. The Grey Ghost from the East Coast 04 Sept 1975.scen</File>
+            <PassScore>567</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>The Mighty"O"</Name>
+            <ID>3f0448f2-8b60-4bbb-bcde-a1938caf6056</ID>
+            <File>7. The Mighty O 12 Sept 1975.scen</File>
+            <PassScore>500</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Damn the Torpedo's</Name>
+            <ID>229bb58a-52c7-4a5d-9521-dcb26e97f1ab</ID>
+            <File>8. Damn the Torpedos 18 Sept 1975.scen</File>
+            <PassScore>667</PassScore>
+        </Scenario>
+        <Attachment>
+            <Name>Local Video: News_Link_for_Between_Scenario_8_and_9.mp4</Name>
+            <ID>df91baed-8386-4ed7-939a-ae14a4b33739</ID>
+        </Attachment>
+        <Scenario>
+            <Name>Fox Two</Name>
+            <ID>8c28d559-56b0-4a46-bcca-95207cc25da9</ID>
+            <File>9. Fox Two 22 Sept 1975.scen</File>
+            <PassScore>800</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>An Eye for an Eye</Name>
+            <ID>7d077304-b04e-4a24-a619-6f37195316d3</ID>
+            <File>10. An Eye for an Eye  26 Sept 1975.scen</File>
+            <PassScore>333</PassScore>
+        </Scenario>
+        <Attachment>
+            <Name>Local Video: News_Link_for_Between_Scenario_10_and_11.mp4</Name>
+            <ID>4efd6b14-07bf-497f-a7d5-d3de0a0069ee</ID>
+        </Attachment>
+        <Scenario>
+            <Name>Fire and Brimstone</Name>
+            <ID>14d89b64-e468-4500-a4e6-438752ac767b</ID>
+            <File>11. Fire and Brimstone 02 October 1975.scen</File>
+            <PassScore>667</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Hunter or Hunted</Name>
+            <ID>7d1d6e2c-126b-4ba6-a97e-97d2f24c5bac</ID>
+            <File>12. Hunter or Hunted  08 October 1975.scen</File>
+            <PassScore>333</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Deliverance</Name>
+            <ID>2d22c59c-0efc-4b00-998a-5321671daf31</ID>
+            <File>13. Deliverance 15 Oct 1975.scen</File>
+            <PassScore>500</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Needle in a Hay Stack</Name>
+            <ID>d519d474-2e2c-4582-adf8-623f25fa571b</ID>
+            <File>14. Needle in a Hay Stack 19 Oct 1975.scen</File>
+            <PassScore>67</PassScore>
+        </Scenario>
+        <Attachment>
+            <Name>Local Video: News_Link_for_Between_Scenario_14_and_15.mp4</Name>
+            <ID>125fb311-a786-4486-b036-f3442ba8f9af</ID>
+        </Attachment>
+        <Scenario>
+            <Name>Fail Safe</Name>
+            <ID>02d1bce6-af2f-41e4-90a4-5edd43bc1b9b</ID>
+            <File>15. Fail Safe  20 Oct 1975.scen</File>
+            <PassScore>4333</PassScore>
+        </Scenario>
+    </Items>
+</Campaign>

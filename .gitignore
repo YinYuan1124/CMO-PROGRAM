@@ -1,0 +1,91 @@
+# ---------------------------------------------------------------------------
+# CMO / Command.Modern Operations reconstructed source
+# ---------------------------------------------------------------------------
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userprefs
+*.cache
+*.sln.docstates
+
+# Build output
+**/obj/
+**/bin/Release/
+**/bin/x64/
+**/bin/x86/
+Command/bin/Debug/localized/
+Command/bin/Debug/*.config
+Command/bin/Debug/*.xml
+Command/bin/Debug/*.pdb
+Command/bin/Debug/*.exe
+Command/bin/Debug/*.dll
+
+# Third-party binaries are tracked in Command/dll; keep them.
+!Command/dll/**
+
+# Build/runtime binaries anywhere else
+*.exe
+*.pdb
+*.dll
+!Command/dll/**
+!Command/bin/Debug/Config/**
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Large runtime data (does not belong in source control)
+Command/bin/Debug/GIS/
+Command/bin/Debug/WW/
+Command/bin/Debug/DB/
+Command/bin/Debug/Tacview/
+Command/bin/Debug/Sound/
+Command/bin/Debug/Symbols/
+Command/bin/Debug/Icons/
+Command/bin/Debug/Manuals/
+Command/bin/Debug/ImportExport/
+Command/bin/Debug/QuickBattle/
+Command/bin/Debug/Recordings/
+Command/bin/Debug/AttachmentRepo/
+Command/bin/Debug/Launcher/
+Command/bin/Debug/Lua/
+Command/bin/Debug/Resources/
+Command/bin/Debug/Logs/
+Command/bin/Debug/Temp/
+
+# User/runtime settings (Localization.ini and ScenarioNames.ini are source)
+Command/bin/Debug/Config/Command.ini
+Command/bin/Debug/Config/Beta.ini
+Command/bin/Debug/Config/EventExport.ini
+Command/bin/Debug/Config/ExternalURLs.ini
+Command/bin/Debug/Config/HoverInfo.ini
+Command/bin/Debug/Config/steam_api.ini
+
+# Large binary data formats
+*.dat
+*.mbtiles
+*.db3
+*.tif
+*.tiff
+*.dmp
+
+# Logs / temporary / backups
+*.log
+*.tmp
+*.bak
+*.orig
+*.rej
+Command/bin/Debug/Command.previous*
+Command.original.*
+_removed-originals/
+.removed-originals/
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store

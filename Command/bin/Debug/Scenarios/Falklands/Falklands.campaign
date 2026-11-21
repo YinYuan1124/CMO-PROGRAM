@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Campaign>
+    <ID>15a5de63-a739-4c36-b86b-bc9fc15bc092</ID>
+    <Name>Falklands</Name>
+    <Description>[LOADDOC]Intro.html[/LOADDOC]</Description>
+    <EndingText>[LOADDOC]CampaignEnd.html[/LOADDOC]</EndingText>
+    <Items>
+        <Scenario>
+            <Name>Operation Paraquet</Name>
+            <ID>6c8c8cfb-9250-482b-9e0c-8450fb9ce69a</ID>
+            <File>1. Operation Paraquet.scen</File>
+            <PassScore>120</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Superfuse</Name>
+            <ID>b9afb8e5-3535-4d96-84d9-0425daa5beee</ID>
+            <File>2. Superfuse.scen</File>
+            <PassScore>200</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Fleet Action</Name>
+            <ID>88bdcfa7-23d3-48ba-adcf-ac338aa905d1</ID>
+            <File>3. Fleet Action.scen</File>
+            <PassScore>250</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Hunter Killer</Name>
+            <ID>c723a4cd-0855-4c98-b072-b40d21be64ee</ID>
+            <File>4. Hunter Killer.scen</File>
+            <PassScore>100</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Hand Brake</Name>
+            <ID>86237a37-2224-463a-9eb2-404686b6e6c7</ID>
+            <File>5. Hand Brake.scen</File>
+            <PassScore>30</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Wolf Pack</Name>
+            <ID>28e66ff3-889e-4fee-b721-25d1cf1b2195</ID>
+            <File>6. Wolf Pack.scen</File>
+            <PassScore>200</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>The Slot</Name>
+            <ID>0b696a58-ef73-452d-a0f3-33a57beb3af0</ID>
+            <File>7. The Slot.scen</File>
+            <PassScore>150</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Pebble Island Raid</Name>
+            <ID>1740413b-30fb-48e9-a28e-b97365734aee</ID>
+            <File>8. Pebble Island Raid.scen</File>
+            <PassScore>300</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Operation Sutton</Name>
+            <ID>504399f4-7542-4d87-9e57-2d80f23ef6a3</ID>
+            <File>9. Operation Sutton.scen</File>
+            <PassScore>-120</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Death Valley</Name>
+            <ID>e8920f8e-6489-4d5b-801d-3d2306acd21c</ID>
+            <File>10. Death Valley.scen</File>
+            <PassScore>200</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name> Independence Day</Name>
+            <ID>e12eef06-2259-4a25-abc9-9824667bb7a2</ID>
+            <File>11. Independence Day.scen</File>
+            <PassScore>200</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Cry Havoc - Bluff Cove</Name>
+            <ID>b9afb8e5-3535-4d96-84d9-0425daa5beee</ID>
+            <File>12. Cry Havoc Bluff Cove.scen</File>
+            <PassScore>140</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Call for Fire</Name>
+            <ID>fc780389-2f43-46b1-b845-8de9fa100fd8</ID>
+            <File>13. Call for Fire.scen</File>
+            <PassScore>150</PassScore>
+        </Scenario>
+    </Items>
+</Campaign>

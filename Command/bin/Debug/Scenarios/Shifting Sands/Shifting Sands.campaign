@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Campaign>
+    <ID>f703124e-f438-42ab-a738-4dcbe7d90c86</ID>
+    <Name>Shifting Sands</Name>
+    <Description>[LOADDOC]Intro.html[/LOADDOC]</Description>
+    <EndingText>[LOADDOC]Epilogue.html[/LOADDOC]</EndingText>
+    <Items>
+        <Scenario>
+            <Name>Red Sea Rumble</Name>
+            <ID>396372f2-ce8c-45c1-8e38-965a372b5625</ID>
+            <File>1. Red Sea Rumble.scen</File>
+            <PassScore>170</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Cross Border Skirmish</Name>
+            <ID>b8616ab5-c787-430c-a866-6417b924c2f1</ID>
+            <File>2. Cross Border Skirmish.scen</File>
+            <PassScore>160</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Hit Hard Hit Fast</Name>
+            <ID>b582692d-4b9d-407c-9018-b0d8cb7c78e6</ID>
+            <File>3. Hit Hard Hit Fast.scen</File>
+            <PassScore>3000</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Rockstar Calling</Name>
+            <ID>f927bafb-e78f-4199-a592-bf5bad0ebeb3</ID>
+            <File>4. Rockstar Calling.scen</File>
+            <PassScore>600</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>The Iron Coast</Name>
+            <ID>4a5a5f31-f74d-4454-84fa-07bc4fdd0ea5</ID>
+            <File>5. The Iron Coast.scen</File>
+            <PassScore>70</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>A New Age</Name>
+            <ID>7f2be793-1362-4f8f-b282-f0aa1a5bfa6a</ID>
+            <File>6. A New Age.scen</File>
+            <PassScore>90</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Sledge Hammer</Name>
+            <ID>9bc37512-c771-40fb-a308-65583620516f</ID>
+            <File>7. Sledge Hammer.scen</File>
+            <PassScore>450</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>The SAM Busters</Name>
+            <ID>8db13955-8917-41aa-abe2-b84cf9edc651</ID>
+            <File>8. The SAM Busters.scen</File>
+            <PassScore>550</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>The Hunters</Name>
+            <ID>3359d7f7-c653-4415-a0e3-e9be2a693e7a</ID>
+            <File>9. The Hunters.scen</File>
+            <PassScore>150</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Hide and Seek</Name>
+            <ID>dbedabfc-e820-4456-b098-f67af4ae2a22</ID>
+            <File>10. Hide and Seek.scen</File>
+            <PassScore>130</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Downtown in Damascus</Name>
+            <ID>d6d49274-026b-4555-aabe-c33573f5f879</ID>
+            <File>11. Downtown in Damascus.scen</File>
+            <PassScore>300</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>The Samson Option</Name>
+            <ID>aaabbb42-11c6-4a76-9189-8c1050d95902</ID>
+            <File>12. The Samson Option.scen</File>
+            <PassScore>2000</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Seconds out Round Two!</Name>
+            <ID>207027b0-85bf-4953-8fda-2523b07e0f59</ID>
+            <File>13. Seconds out Round Two!.scen</File>
+            <PassScore>140</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>"Bogies Like Fireflies"</Name>
+            <ID>3db66a76-c707-44d1-bdf5-20f4105ec083</ID>
+            <File>14. Bogies Like Fireflies.scen</File>
+            <PassScore>2100</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Fifth Eskadra</Name>
+            <ID>787bc642-11c6-4a76-9189-8c1050d95902</ID>
+            <File>15. Fifth Eskadra.scen</File>
+            <PassScore>4800</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Operation Opera</Name>
+            <ID>0d4b589b-9993-4bcf-afcc-b12c06835205</ID>
+            <File>16. Operation Opera.scen</File>
+            <PassScore>400</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Bekaa Valley</Name>
+            <ID>318e8bb6-4a24-48ba-8d70-60719bb69762</ID>
+            <File>17. Bekaa Valley.scen</File>
+            <PassScore>800</PassScore>
+        </Scenario>
+    </Items>
+</Campaign>

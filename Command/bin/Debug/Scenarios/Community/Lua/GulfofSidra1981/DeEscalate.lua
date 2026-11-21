@@ -1,0 +1,7 @@
+ScenEdit_SetKeyValue("tensionLevel", "1")
+ScenEdit_SetKeyValue("LibyaHasEngaged","0")
+ScenEdit_SetSidePosture("Libya","United States","U")
+ScenEdit_SetSidePosture("Libya","United States AI","U")
+ScenEdit_SetSidePosture("United States","Libya", "U")
+ScenEdit_SetSidePosture("United States AI","Libya", "U")
+ScenEdit_MsgBox ('It seems that the Libyans are backing down for now. Your orders are to reset your CAP and resume with your ROE as briefed, but maintain a heightened state of vigilance', 1)

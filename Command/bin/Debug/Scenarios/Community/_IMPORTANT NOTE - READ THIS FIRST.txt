@@ -1,0 +1,7 @@
+Please delete all old Community Scenario files before extracting these files. Many scenarios have been given new names which may leave old duplicates. Thank you!
+
+The contents of the Lua folder need to be placed in the Lua folder in your main Command directory: Command Modern Operations\Lua.
+
+The Community Scenario Package is maintained by Kushan, for any issue related with the included scenarios, contact at KushanGaming@gmail.com
+
+Credit for originally creating this package goes to Miguel Molina 'Meroka37'.

@@ -1,0 +1,32 @@
+<html>
+<link rel="stylesheet" href="MDSP.css" type="text/css" />
+<body>
+	<p>Today you will be learning how to setup Time on Target (ToT) and Take-Off Times.</p>
+	<p>There are two air bases with aircraft under your control.</p>
+	<p>Before you begin, you should create Task Pools and Packages or a Land Strike mission. For this tutorial you will need at least one Land Strike mission or package.</p>
+	<p>To create a Task Pool:</p>
+	<ol>
+		<li value="1">Open the New Mission / Task Pool / Package menu (Ctrl + F11).</li>
+		<li>Select "Task Pool" in the category section, give it a name, then click OK.</li>
+		<li>On the Mission Editor menu, select the Task Pool you created in the missions list, then add units to it like you would any other mission.</li>
+	</ol>
+	<p>To create a Package:</p>
+	<ol>
+		<li value="1">Open the New Mission / Task Pool / Packages menu (Ctrl + F11).</li>
+		<li>Select "Packages" in the category section, select the mission class and type, and the parent pool.</li>
+		<li>On the Mission Editor menu configure the mission as normal. When adding unit's, you will notice the only units available will be those in the parent Task Pool.</li>
+	</ol>
+	<p>Time on Target (ToT) / Take-Off Time indicates the two most important time related information of a mission. Within Command one of the two can be defined by the user and the other will be calculated automatically. When modifying a flightplan such as when moving or adding a waypoint both will be recalculated without the need for additional user input.</p>
+	<p>To setup Time on Target or Take-Off Time:</p>
+	<ol>
+		<li value="1">Open the Mission Editor menu (F11) and select a package or mission.</li>
+		<li>Enter the desired Time on Target or Take-Off Time in the fields below the mission list. You can only use one, the other will be calculated automatically.</li>
+		<li>Click the "CREATE or UPDATE flightplans button.</li>
+	</ol>
+	<p>For this tutorial you can use whatever Time on Target / Take-Off Time you like but suggest you start by using a Time on Target of 13:00:00Z. You should experiment with both.</p>
+	<p>The flights were created along with the flightplans. The flightplan is considering the distance, speed, and multiple other factors to calculate the exact Take-Off Time of all the assigned aircraft.</p>
+	<p>If you click on the "Air Tasking Order" button, you can see both the Take-Off and Time on Target for your flights. Verifying the Take-Off Time is important when using Time on Target. It is possible that the scenario time will be past the Take-Off Time, and thus unable to meet your desired Time on Target.</p>
+	<p>When the scenario is unpaused the aircraft will depart at the scheduled Take-Off Time, follow their flightplans and drop their bombs on the target at the Time on Target.</p>
+	<p>Time on Target can also be defined for standoff weapons. The Time on Target will be calculated with reference to the used weapons, not the unit launching the weapon. We will cover this in more detail in the next tutorial.</p>
+</body>
+</html>

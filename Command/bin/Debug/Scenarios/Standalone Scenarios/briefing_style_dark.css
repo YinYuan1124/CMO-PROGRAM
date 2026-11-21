@@ -1,0 +1,55 @@
+body{
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 16;
+	background-color: #383838;
+	color: whitesmoke;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+h1{
+	margin:0px;
+	font-size: 22;
+}
+
+h2{
+	margin:0px;
+	font-size: 20;
+}
+
+h3{
+	margin:0px;
+	font-size: 16;
+	font-weight: 550;
+	font-feature-settings: underline;
+}
+
+h4{
+	margin:0px;
+	margin-bottom:0.2em;
+}
+
+h5{
+	margin:0px;
+	margin-left:1em;
+}
+
+p {
+	margin:0px;
+	margin-bottom: 1em;
+}
+
+ul {
+	margin:0px;
+	margin-bottom: 1em;
+}
+
+ol {
+	margin:0px;
+	margin-bottom: 1em;
+}

@@ -1,0 +1,285 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Command</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <TargetFramework>net48</TargetFramework>
+    <OutputPath>bin\Debug\localized\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Command.g.resources" LogicalName="Command.g.resources" />
+
+    <Reference Include="System.Resources.Extensions">
+      <HintPath>dll\System.Resources.Extensions.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+      <Reference Include="Microsoft.Extensions.Primitives">
+      <HintPath>bin\Debug\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="command\scoringgraphdatatooltip.baml" />
+    <None Remove="command\hoverinfounitmessagelog.baml" />
+    <None Remove="command\hoverinfocargo.baml" />
+    <None Remove="command\commandwpfresourcedictionary.baml" />
+    <None Remove="command\hoverinfodamage.baml" />
+    <None Remove="command\unitspeedalt.baml" />
+    <None Remove="command\scenarioselectcontrol.baml" />
+    <None Remove="command\unitweapons_wpf.baml" />
+    <None Remove="icons\warning.png" />
+    <None Remove="command\hoverinfoweaponheader.baml" />
+    <None Remove="command\hoverinfosensorsummary.baml" />
+    <None Remove="command\scenariofeatures.baml" />
+    <None Remove="command\databasewindow.baml" />
+    <None Remove="command\hoverinfosensors.baml" />
+    <None Remove="command\hoverinfooptions.baml" />
+    <None Remove="command\terraintypelegendwindow.baml" />
+    <None Remove="command\hoverinfomain.baml" />
+    <None Remove="command\rightcolumnwpf.baml" />
+    <None Remove="command\hoverinfomission.baml" />
+    <None Remove="command\gamecontrolbar.baml" />
+    <None Remove="dll\spire.pdf.xml" />
+    <None Remove="command\hoverinfoweapons.baml" />
+    <None Remove="command\globalminimapwindow.baml" />
+    <None Remove="command\hoverinfofuel.baml" />
+    <None Remove="forms\messagelog\messagelogwpfwindow.baml" />
+    <None Remove="icons\tsb_cargo.png" />
+    <None Remove="command\hoverinfocontactheader.baml" />
+    <None Remove="icons\button_addfac.png" />
+    <None Remove="command\scenariominimapwindow.baml" />
+    <None Remove="icons\info.png" />
+    <None Remove="command\hoverinfogroupheader.baml" />
+    <None Remove="command\cargoopscontrol.baml" />
+    <None Remove="command\cargomissioncontrol.baml" />
+    <None Remove="command\hoverinfoparasites.baml" />
+    <None Remove="command\resources_icons_xaml.baml" />
+    <None Remove="command\mapcursordatabox.baml" />
+    <None Remove="icons\button_removefac.png" />
+    <None Remove="command\hoverinfoactiveunitheader.baml" />
+    <None Remove="command\unlicensedfeatureswindow.baml" />
+    <None Remove="command\messagelogcontrol.baml" />
+    <None Remove="dll\livecharts.winforms.xml" />
+    <None Remove="command\unitdoctrine_wpf.baml" />
+    <None Remove="command\sensorterrainrenderercontrol.baml" />
+    <None Remove="command\timeontargetwindow.baml" />
+    <None Remove="command\editcargocontrol.baml" />
+    <None Remove="command\unitstatus_wpf.baml" />
+    <None Remove="dll\spire.license.xml" />
+    <None Remove="dll\npoi.ooxml.xml" />
+    <None Remove="command\startgamemenuwindow.baml" />
+    <None Remove="command\playernagwindow.baml" />
+    <None Remove="command\orbitanchor.baml" />
+    <None Remove="dll\livecharts.wpf.xml" />
+    <None Remove="command\camerafollowingminimapwindow.baml" />
+    <None Remove="dll\npoi.openxml4net.xml" />
+    <None Remove="icons\error.png" />
+    <None Remove="app.ico" />
+    <None Remove="command\databasecontrol.baml" />
+    <None Remove="command\hoverinfomounts.baml" />
+    <None Remove="dll\npoi.xml" />
+    <None Remove="dll\livecharts.xml" />
+    <None Remove="command\hoverinfoweaponsummary.baml" />
+    <None Remove="command\recentdetections_wpf.baml" />
+    <None Remove="command\messagelogoutercontrol.baml" />
+    <None Remove="command\scoringgraphcontrol.baml" />
+    <None Remove="wpf\expressiondark.baml" />
+    <None Remove="command\realismdialogcontrol.baml" />
+    <None Remove="command\fuelpanel_wpf.baml" />
+    <None Remove="command\unitemcon_wpf.baml" />
+    <None Remove="command\timeontargetcontrol.baml" />
+    <None Remove="command\licensetweaker.baml" />
+    <EmbeddedResource Include="command\scoringgraphdatatooltip.baml" LogicalName="command/scoringgraphdatatooltip.baml" />
+    <EmbeddedResource Include="command\hoverinfounitmessagelog.baml" LogicalName="command/hoverinfounitmessagelog.baml" />
+    <EmbeddedResource Include="command\hoverinfocargo.baml" LogicalName="command/hoverinfocargo.baml" />
+    <EmbeddedResource Include="command\commandwpfresourcedictionary.baml" LogicalName="command/commandwpfresourcedictionary.baml" />
+    <EmbeddedResource Include="command\hoverinfodamage.baml" LogicalName="command/hoverinfodamage.baml" />
+    <EmbeddedResource Include="command\unitspeedalt.baml" LogicalName="command/unitspeedalt.baml" />
+    <EmbeddedResource Include="command\scenarioselectcontrol.baml" LogicalName="command/scenarioselectcontrol.baml" />
+    <EmbeddedResource Include="command\unitweapons_wpf.baml" LogicalName="command/unitweapons_wpf.baml" />
+    <EmbeddedResource Include="icons\warning.png" LogicalName="icons/warning.png" />
+    <EmbeddedResource Include="command\hoverinfoweaponheader.baml" LogicalName="command/hoverinfoweaponheader.baml" />
+    <EmbeddedResource Include="command\hoverinfosensorsummary.baml" LogicalName="command/hoverinfosensorsummary.baml" />
+    <EmbeddedResource Include="command\scenariofeatures.baml" LogicalName="command/scenariofeatures.baml" />
+    <EmbeddedResource Include="command\databasewindow.baml" LogicalName="command/databasewindow.baml" />
+    <EmbeddedResource Include="command\hoverinfosensors.baml" LogicalName="command/hoverinfosensors.baml" />
+    <EmbeddedResource Include="command\hoverinfooptions.baml" LogicalName="command/hoverinfooptions.baml" />
+    <EmbeddedResource Include="command\terraintypelegendwindow.baml" LogicalName="command/terraintypelegendwindow.baml" />
+    <EmbeddedResource Include="command\hoverinfomain.baml" LogicalName="command/hoverinfomain.baml" />
+    <EmbeddedResource Include="command\rightcolumnwpf.baml" LogicalName="command/rightcolumnwpf.baml" />
+    <EmbeddedResource Include="command\hoverinfomission.baml" LogicalName="command/hoverinfomission.baml" />
+    <EmbeddedResource Include="command\gamecontrolbar.baml" LogicalName="command/gamecontrolbar.baml" />
+    <EmbeddedResource Include="dll\spire.pdf.xml" LogicalName="dll/spire.pdf.xml" />
+    <EmbeddedResource Include="command\hoverinfoweapons.baml" LogicalName="command/hoverinfoweapons.baml" />
+    <EmbeddedResource Include="command\globalminimapwindow.baml" LogicalName="command/globalminimapwindow.baml" />
+    <EmbeddedResource Include="command\hoverinfofuel.baml" LogicalName="command/hoverinfofuel.baml" />
+    <EmbeddedResource Include="forms\messagelog\messagelogwpfwindow.baml" LogicalName="forms/messagelog/messagelogwpfwindow.baml" />
+    <EmbeddedResource Include="icons\tsb_cargo.png" LogicalName="icons/tsb_cargo.png" />
+    <EmbeddedResource Include="command\hoverinfocontactheader.baml" LogicalName="command/hoverinfocontactheader.baml" />
+    <EmbeddedResource Include="icons\button_addfac.png" LogicalName="icons/button_addfac.png" />
+    <EmbeddedResource Include="command\scenariominimapwindow.baml" LogicalName="command/scenariominimapwindow.baml" />
+    <EmbeddedResource Include="icons\info.png" LogicalName="icons/info.png" />
+    <EmbeddedResource Include="command\hoverinfogroupheader.baml" LogicalName="command/hoverinfogroupheader.baml" />
+    <EmbeddedResource Include="command\cargoopscontrol.baml" LogicalName="command/cargoopscontrol.baml" />
+    <EmbeddedResource Include="command\cargomissioncontrol.baml" LogicalName="command/cargomissioncontrol.baml" />
+    <EmbeddedResource Include="command\hoverinfoparasites.baml" LogicalName="command/hoverinfoparasites.baml" />
+    <EmbeddedResource Include="command\resources_icons_xaml.baml" LogicalName="command/resources_icons_xaml.baml" />
+    <EmbeddedResource Include="command\mapcursordatabox.baml" LogicalName="command/mapcursordatabox.baml" />
+    <EmbeddedResource Include="icons\button_removefac.png" LogicalName="icons/button_removefac.png" />
+    <EmbeddedResource Include="command\hoverinfoactiveunitheader.baml" LogicalName="command/hoverinfoactiveunitheader.baml" />
+    <EmbeddedResource Include="command\unlicensedfeatureswindow.baml" LogicalName="command/unlicensedfeatureswindow.baml" />
+    <EmbeddedResource Include="command\messagelogcontrol.baml" LogicalName="command/messagelogcontrol.baml" />
+    <EmbeddedResource Include="dll\livecharts.winforms.xml" LogicalName="dll/livecharts.winforms.xml" />
+    <EmbeddedResource Include="command\unitdoctrine_wpf.baml" LogicalName="command/unitdoctrine_wpf.baml" />
+    <EmbeddedResource Include="command\sensorterrainrenderercontrol.baml" LogicalName="command/sensorterrainrenderercontrol.baml" />
+    <EmbeddedResource Include="command\timeontargetwindow.baml" LogicalName="command/timeontargetwindow.baml" />
+    <EmbeddedResource Include="command\editcargocontrol.baml" LogicalName="command/editcargocontrol.baml" />
+    <EmbeddedResource Include="command\unitstatus_wpf.baml" LogicalName="command/unitstatus_wpf.baml" />
+    <EmbeddedResource Include="dll\spire.license.xml" LogicalName="dll/spire.license.xml" />
+    <EmbeddedResource Include="dll\npoi.ooxml.xml" LogicalName="dll/npoi.ooxml.xml" />
+    <EmbeddedResource Include="command\startgamemenuwindow.baml" LogicalName="command/startgamemenuwindow.baml" />
+    <EmbeddedResource Include="command\playernagwindow.baml" LogicalName="command/playernagwindow.baml" />
+    <EmbeddedResource Include="command\orbitanchor.baml" LogicalName="command/orbitanchor.baml" />
+    <EmbeddedResource Include="dll\livecharts.wpf.xml" LogicalName="dll/livecharts.wpf.xml" />
+    <EmbeddedResource Include="command\camerafollowingminimapwindow.baml" LogicalName="command/camerafollowingminimapwindow.baml" />
+    <EmbeddedResource Include="dll\npoi.openxml4net.xml" LogicalName="dll/npoi.openxml4net.xml" />
+    <EmbeddedResource Include="icons\error.png" LogicalName="icons/error.png" />
+    <EmbeddedResource Include="app.ico" LogicalName="app.ico" />
+    <EmbeddedResource Include="command\databasecontrol.baml" LogicalName="command/databasecontrol.baml" />
+    <EmbeddedResource Include="command\hoverinfomounts.baml" LogicalName="command/hoverinfomounts.baml" />
+    <EmbeddedResource Include="dll\npoi.xml" LogicalName="dll/npoi.xml" />
+    <EmbeddedResource Include="dll\livecharts.xml" LogicalName="dll/livecharts.xml" />
+    <EmbeddedResource Include="command\hoverinfoweaponsummary.baml" LogicalName="command/hoverinfoweaponsummary.baml" />
+    <EmbeddedResource Include="command\recentdetections_wpf.baml" LogicalName="command/recentdetections_wpf.baml" />
+    <EmbeddedResource Include="command\messagelogoutercontrol.baml" LogicalName="command/messagelogoutercontrol.baml" />
+    <EmbeddedResource Include="command\scoringgraphcontrol.baml" LogicalName="command/scoringgraphcontrol.baml" />
+    <EmbeddedResource Include="wpf\expressiondark.baml" LogicalName="wpf/expressiondark.baml" />
+    <EmbeddedResource Include="command\realismdialogcontrol.baml" LogicalName="command/realismdialogcontrol.baml" />
+    <EmbeddedResource Include="command\fuelpanel_wpf.baml" LogicalName="command/fuelpanel_wpf.baml" />
+    <EmbeddedResource Include="command\unitemcon_wpf.baml" LogicalName="command/unitemcon_wpf.baml" />
+    <EmbeddedResource Include="command\timeontargetcontrol.baml" LogicalName="command/timeontargetcontrol.baml" />
+    <EmbeddedResource Include="command\licensetweaker.baml" LogicalName="command/licensetweaker.baml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Data" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream">
+      <HintPath>bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="NPOI">
+      <HintPath>bin\Debug\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NLua">
+      <HintPath>bin\Debug\NLua.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="NetTopologySuite">
+      <HintPath>bin\Debug\NetTopologySuite.dll</HintPath>
+    </Reference>
+    <Reference Include="GeoAPI">
+      <HintPath>bin\Debug\GeoAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="DirectN">
+      <HintPath>bin\Debug\DirectN.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite">
+      <HintPath>bin\Debug\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="MathNet.Numerics">
+      <HintPath>bin\Debug\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="MathNet.Spatial">
+      <HintPath>bin\Debug\MathNet.Spatial.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="ObservableDictionary">
+      <HintPath>bin\Debug\ObservableDictionary.dll</HintPath>
+    </Reference>
+    <Reference Include="SevenZipSharp">
+      <HintPath>bin\Debug\SevenZipSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="CoordinateSharp">
+      <HintPath>bin\Debug\CoordinateSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BitMiracle.LibTiff.NET">
+      <HintPath>bin\Debug\BitMiracle.LibTiff.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Memory">
+      <HintPath>bin\Debug\Microsoft.Extensions.Caching.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Abstractions">
+      <HintPath>bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="KeraLua">
+      <HintPath>bin\Debug\KeraLua.dll</HintPath>
+    </Reference>
+    <Reference Include="NetworkCommsDotNetComplete">
+      <HintPath>bin\Debug\NetworkCommsDotNetComplete.dll</HintPath>
+    </Reference>
+    <Reference Include="LZ4">
+      <HintPath>bin\Debug\LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="Steamworks.NET">
+      <HintPath>bin\Debug\Steamworks.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="ScintillaNET">
+      <HintPath>bin\Debug\ScintillaNET.dll</HintPath>
+    </Reference>
+    <Reference Include="MSDN.HtmlEditorControl">
+      <HintPath>bin\Debug\MSDN.HtmlEditorControl.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts">
+      <HintPath>bin\Debug\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="Odyssey">
+      <HintPath>bin\Debug\Odyssey.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf">
+      <HintPath>bin\Debug\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks">
+      <HintPath>bin\Debug\Microsoft.VisualBasic.PowerPacks.dll</HintPath>
+    </Reference>
+    <Reference Include="ThreadSafeControls">
+      <HintPath>bin\Debug\ThreadSafeControls.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management.Automation">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Management.Automation\v4.0_3.0.0.0__31bf3856ad364e35\System.Management.Automation.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Toolkit">
+      <HintPath>bin\Debug\Xceed.Wpf.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>bin\Debug\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options">
+      <HintPath>bin\Debug\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="command\QResourceHelper.cs" />
+    <Compile Remove="command\QResourceManager.cs" />
+    <Compile Remove="command\QComponentResourceManager.cs" />
+    <Compile Remove="_003CModule_003E_007BAC259EFB_002DDF09_002D4E8D_002D82B0_002DA78D73CD9E77_007D.cs" />
+  </ItemGroup>
+</Project>

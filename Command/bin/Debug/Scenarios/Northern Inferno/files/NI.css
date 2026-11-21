@@ -1,0 +1,25 @@
+﻿body {    
+background-color: #333333
+}
+
+h1{
+	color: red;
+	font-size:xx-large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+	color: Yellow;
+	font-size:x-large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}

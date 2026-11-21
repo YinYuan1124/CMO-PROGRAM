@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Campaign>
+    <ID>f8691e80-1caf-4a49-a1b7-9305255a9200</ID>
+    <Name>Chains of War</Name>
+    <Description>[LOADDOC]ChainsofWarIntro.html[/LOADDOC]</Description>
+    <EndingText>[LOADDOC]ChainsofWarEnd.html[/LOADDOC]</EndingText>
+    <Items>
+        <Scenario>
+            <Name>Blue Dawn</Name>
+            <ID>f41bde48-d3cf-4bbc-8092-16a1fb9d359c</ID>
+            <File>1. Blue Dawn.scen</File>
+            <PassScore>1300</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>God of War</Name>
+            <ID>ee244280-f3bf-403d-87fc-8dbd88f6d940</ID>
+            <File>2. God of War.scen</File>
+            <PassScore>55</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Push</Name>
+            <ID>49304198-2584-4d9d-b3a3-e3860a9b4419</ID>
+            <File>3. Push.scen</File>
+            <PassScore>700</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Salvo</Name>
+            <ID>f55f8398-4139-4b76-9ed2-ae075b4e06cd</ID>
+            <File>4. Salvo.scen</File>
+            <PassScore>2000</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Nightmares</Name>
+            <ID>029d29d1-84d6-4e85-8005-15c0e75a8254</ID>
+            <File>5. Nightmares.scen</File>
+            <PassScore>1000</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>The One Two Punch</Name>
+            <ID>2319a1da-0820-44ce-96ec-520574fb67bc</ID>
+            <File>6. The One Two Punch.scen</File>
+            <PassScore>133</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Okinawa Bound</Name>
+            <ID>5099815b-7122-4a65-ab39-83010f4be96c</ID>
+            <File>7. Okinawa Bound.scen</File>
+            <PassScore>2167</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Taiwan Blitz</Name>
+            <ID>8de78c59-f113-4036-b231-5cf1e1b12163</ID>
+            <File>8. Taiwan Blitz.scen</File>
+            <PassScore>2333</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Korean Ground Game</Name>
+            <ID>2d9ff5ba-bf67-4cbe-81bf-a86c8ddf035b</ID>
+            <File>9. Korean Ground Game.scen</File>
+            <PassScore>2600</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Showpieces</Name>
+            <ID>2f6ff1bb-42e5-49a9-9ef1-913422726ee8</ID>
+            <File>10. Showpieces.scen</File>
+            <PassScore>333</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Air Sea Battle</Name>
+            <ID>09d67a6c-a830-4a65-897b-48b1f431f604</ID>
+            <File>11. Air Sea Battle.scen</File>
+            <PassScore>3000</PassScore>
+        </Scenario>
+        <Scenario>
+            <Name>Hail Mary</Name>
+            <ID>700da166-7b54-4efc-9b77-e7b5c6b529ce</ID>
+            <File>12. Hail Mary.scen</File>
+            <PassScore>100000</PassScore>
+        </Scenario>
+    </Items>
+</Campaign>
