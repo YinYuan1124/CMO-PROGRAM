@@ -125,9 +125,10 @@ public sealed class CampaignEnd : DarkSecondaryFormBase
 
 	private void EnableStatus(object sender, EventArgs e)
 	{
-		if (!InitStatus(WebBrowser1, theCampaign.EndingText, theCampaign.FolderPath))
+		string localizedEnding = Localization.ScenarioText(theCampaign.FilePath, "EndingText", theCampaign.EndingText);
+		if (!InitStatus(WebBrowser1, localizedEnding, theCampaign.FolderPath))
 		{
-			InterpreterObjectListener.AwakeInterruptibleTask(WebBrowser1, theCampaign.EndingText);
+			InterpreterObjectListener.AwakeInterruptibleTask(WebBrowser1, localizedEnding);
 		}
 		ChangeStatus();
 	}

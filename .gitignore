@@ -74,6 +74,9 @@ Command/bin/Debug/Config/steam_api.ini
 *.tiff
 *.dmp
 
+# Translation work output (extracted plain-text briefings)
+_translation_work/
+
 # Logs / temporary / backups
 *.log
 *.tmp

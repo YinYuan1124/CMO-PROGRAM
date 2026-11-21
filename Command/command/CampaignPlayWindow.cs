@@ -1134,9 +1134,10 @@ public sealed class CampaignPlayWindow : DarkSecondaryFormBase
 		{
 			WebBrowser1.Visible = true;
 			WebBrowser1.AllowNavigation = true;
-			if (!VisitStatus(WebBrowser1, campaign.Description, Path.GetDirectoryName(_StrategyInvocation)))
+			string localizedDescription = Localization.ScenarioText(_StrategyInvocation, "Description", campaign.Description);
+			if (!VisitStatus(WebBrowser1, localizedDescription, Path.GetDirectoryName(_StrategyInvocation)))
 			{
-				InterpreterObjectListener.AwakeInterruptibleTask(WebBrowser1, campaign.Description);
+				InterpreterObjectListener.AwakeInterruptibleTask(WebBrowser1, localizedDescription);
 			}
 			Button1.Visible = true;
 		}

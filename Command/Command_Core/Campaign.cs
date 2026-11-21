@@ -72,6 +72,9 @@ public sealed class Campaign
 
 	public string FolderPath;
 
+	/// <summary>Path of the .campaign file this instance was read from (null for new campaigns).</summary>
+	public string FilePath;
+
 	public string LuaXml;
 
 	private void DisableProperty(ref XmlWriter xmlWriter_0)
@@ -287,6 +290,7 @@ public sealed class Campaign
 		XmlNode xmlNode_ = xmlDocument.ChildNodes[1];
 		Campaign campaign = UpdateProperty(ref xmlNode_);
 		campaign.FolderPath = Path.GetDirectoryName(string_0);
+		campaign.FilePath = string_0;
 		return campaign;
 	}
 
